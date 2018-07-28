@@ -48,19 +48,26 @@
 			<ul>
 				<li class="cd-label">Main</li>
 				<li class="has-children overview ">
-					<a href="">Add product</a>
-
+					<a href="#0">Shop</a>
 					<ul>
-						<li><a href="">Womens</a></li>
-						<li><a href="#0">Mens</a></li>
-						<li><a href="#0">Kids</a></li>
+						<li><a href="add.html">Add items</a></li>
+						<li><a href="edit.html">Edit Items</a></li>
+						<li><a href="delete.html">Delete Items</a></li>
 					</ul>
 				</li>
 				<li class="has-children notifications active">
-					<a href="#0">Add Event<span class="count">1</span></a>
+					<a href="#0">Event Managment<span class="count">3</span></a>
 				</li>
-
+                <li class="has-children overview ">
+					<a href="#0">Order Details</a>
+					<ul>
+						<li><a href="product.html">Womens</a></li>
+						<li><a href="product.html">Mens</a></li>
+						<li><a href="product.html">Kids</a></li>
+					</ul>
+				</li>
 			</ul>
+
 		</nav>
 
 		<div class="content-wrapper">
@@ -73,12 +80,34 @@
 				</div>
                 <div class="font-dec">
                     <form action="/action_page.php">
-                      Product Name<br>
-                      <input type="text" name="firstname">
-                      <br>
-                      Price<br>
-                      <input type="text" name="lastname">
-                      <br><br>
+                        Product Name<br>
+                        <input type="text" name="firstname">
+                        <br>
+                        Price<br>
+                        <input type="text" name="lastname">
+                        <br>
+                        Gender<br>
+                        <select>
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="kids">Kids</option>
+                        </select>
+                        <br>
+                        Section
+                        <br>
+                        <select>
+                          <option value="shirts">Shirts</option>
+                          <option value="saab">Jeans</option>
+                          <option value="opel">Hoodies</option>
+                          <option value="audi">Pants</option>
+                          <option value="saab">Jeans</option>
+                          <option value="opel">Hoodies</option>
+                          <option value="audi">Pants</option>
+                          <option value="saab">Jeans</option>
+                          <option value="opel">Hoodies</option>
+                          <option value="audi">Pants</option>
+                        </select>
+                        <br>
                       <a href="#">Add Image</a>
                       <a href="#">Upload</a>
                     </form> 

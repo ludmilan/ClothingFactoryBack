@@ -758,9 +758,22 @@ Sidebar
 }
 
 .font-dec input {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     width: 250px; 
     margin-top: 5px;
+    border-color: rgb(62, 69, 76);
+    border-width: 0.5px;
+}
+
+.font-dec select{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 30px;
+    background-color: #fff;
+    border-color: rgb(62, 69, 76);
+;
+
 }
 
 .font-dec a {
